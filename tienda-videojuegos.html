@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Pixel Store - Tienda de Videojuegos</title>
+</head>
+<body>
+	<header id="inicio">
+		<h1>Pixel Store</h1>
+		<p>Tu tienda de videojuegos, consolas y accesorios para vivir nuevas aventuras.</p>
+
+		<nav aria-label="Menú principal">
+			<ul>
+				<li><a href="#inicio">Inicio</a></li>
+				<li><a href="#productos">Productos</a></li>
+				<li><a href="#categorias">Categorías</a></li>
+				<li><a href="#contacto">Contacto</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<main>
+		<!-- aria-labelledby conecta esta sección con su título para mejorar la lectura con tecnologías de asistencia. -->
+		<section aria-labelledby="bienvenida-titulo">
+			<h2 id="bienvenida-titulo">Bienvenidos a Pixel Store</h2>
+			<p>
+				En nuestra tienda encontrarás videojuegos populares, lanzamientos recientes,
+				consolas de última generación y accesorios para mejorar tu experiencia de juego.
+			</p>
+			<img
+				src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=900&q=80"
+				alt="Control de videojuegos frente a una pantalla con luces de colores"
+				width="900"
+				height="600"
+			>
+		</section>
+
+		<section id="productos" aria-labelledby="productos-titulo">
+			<h2 id="productos-titulo">Productos destacados</h2>
+			<p>Revisa algunos de los productos más buscados por nuestra comunidad gamer.</p>
+
+			<ul>
+				<li>
+					<article>
+						<h3>Galaxy Quest Deluxe</h3>
+						<img
+							src="https://images.unsplash.com/photo-1612287230202-1ff1d85d1bdf?auto=format&fit=crop&w=500&q=80"
+							alt="Control de consola junto a una pantalla de videojuego"
+							width="500"
+							height="333"
+						>
+						<p>
+							Juego de aventura espacial con modo historia, desafíos cooperativos
+							y exploración de planetas.
+						</p>
+					</article>
+				</li>
+				<li>
+					<article>
+						<h3>Consola PlayMax 5</h3>
+						<img
+							src="https://images.unsplash.com/photo-1606144042614-b2417e99c4e3?auto=format&fit=crop&w=500&q=80"
+							alt="Consola de videojuegos moderna con controles"
+							width="500"
+							height="333"
+						>
+						<p>
+							Consola de alto rendimiento ideal para jugar títulos actuales con
+							excelente calidad gráfica.
+						</p>
+					</article>
+				</li>
+				<li>
+					<article>
+						<h3>Audífonos Gamer Pro</h3>
+						<img
+							src="https://images.unsplash.com/photo-1599669454699-248893623440?auto=format&fit=crop&w=500&q=80"
+							alt="Audífonos gamer con iluminación sobre un escritorio"
+							width="500"
+							height="333"
+						>
+						<p>
+							Audífonos cómodos con micrófono integrado, sonido envolvente y diseño
+							pensado para largas partidas.
+						</p>
+					</article>
+				</li>
+			</ul>
+		</section>
+
+		<section id="categorias" aria-labelledby="categorias-titulo">
+			<h2 id="categorias-titulo">Categorías de productos</h2>
+			<p>Explora nuestra tienda según el tipo de producto que necesitas.</p>
+
+			<ul>
+				<li>Videojuegos de aventura</li>
+				<li>Videojuegos deportivos</li>
+				<li>Consolas</li>
+				<li>Controles y accesorios</li>
+				<li>Audífonos gamer</li>
+			</ul>
+		</section>
+	</main>
+
+	<footer id="contacto">
+		<h2>Contacto</h2>
+		<p>Dirección: Av. Gamer 123, Santiago, Chile.</p>
+		<p>Correo: <a href="mailto:contacto@pixelstore.cl">contacto@pixelstore.cl</a></p>
+		<!-- rel="noopener noreferrer" protege la página al abrir enlaces externos en una pestaña nueva. -->
+		<p>Instagram: <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">@pixelstore</a></p>
+		<p>Copyright &copy; 2026 Pixel Store. Todos los derechos reservados.</p>
+	</footer>
+</body>
+</html>
