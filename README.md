@@ -25,22 +25,31 @@ Los archivos principales del proyecto son:
 ```text
 index.html
 tienda-videojuegos.html
-Alex_Fernandez_PFY2201_CSS_Semana2.css
+css/styles.css
 ```
 
 ## Capturas
 
-### Captura 1
+### Vista inicial
 
 ![Captura 1](screenshots/preview_html_1.png)
 
-### Captura 2
+### Productos destacados
 
 ![Captura 2](screenshots/preview_html_2.png)
 
-### Captura 3
+### Vista responsive en laptop
 
-![Captura 3](screenshots/preview_html_3.png)
+![Vista responsive en laptop](screenshots/preview_html_3.png)
 
-### Captura 4
-![Captura 4](screenshots/html_checker.png)
+### Vista responsive en mobile
+
+![Vista responsive en mobile](screenshots/preview_html_4.png)
+
+### Validación HTML
+
+![Validación HTML](screenshots/html_checker.png)
+
+### Validación CSS
+
+![Validación CSS](screenshots/css_validator.png)
