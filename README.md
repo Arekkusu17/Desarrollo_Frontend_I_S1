@@ -1,10 +1,10 @@
 # Pixel Store - Tienda de Videojuegos
 
-Página web básica creada en HTML para simular la página principal de una tienda de videojuegos.
+Página web de una tienda de videojuegos optimizada con CSS externo para la Semana 2 de Desarrollo Frontend I.
 
 ## Descripción
 
-El sitio presenta una estructura semántica usando etiquetas como `header`, `nav`, `main`, `section`, `article` y `footer`.
+El sitio presenta una estructura semántica usando etiquetas como `header`, `nav`, `main`, `section`, `article` y `footer`, más una hoja de estilos externa para mejorar su presentación visual.
 
 Incluye:
 
@@ -13,13 +13,19 @@ Incluye:
 - Listas para navegación, productos y categorías.
 - Enlaces internos y externos.
 - Imágenes con texto alternativo.
+- Modelo de cajas con `box-sizing`, `padding`, `margin` y `border`.
+- Colores de fondo, texto, bordes y tipografías.
+- Selectores de clase, ID y `nth-child()`.
+- Diseño adaptable para pantallas pequeñas.
 
 ## Archivo principal
 
-El archivo principal del proyecto es:
+Los archivos principales del proyecto son:
 
 ```text
+index.html
 tienda-videojuegos.html
+Alex_Fernandez_PFY2201_CSS_Semana2.css
 ```
 
 ## Capturas
