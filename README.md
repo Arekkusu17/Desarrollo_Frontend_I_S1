@@ -17,14 +17,16 @@ Incluye:
 - Colores de fondo, texto, bordes y tipografías.
 - Selectores de clase, ID y `nth-child()`.
 - Diseño adaptable para pantallas pequeñas.
+- Variables CSS para centralizar colores, tipografías, bordes y sombras.
+- Organización del CSS por secciones comentadas.
+- Unidades relativas como `rem` y uso de `clamp()` para mejorar escalabilidad.
 
-## Archivo principal
+## Archivos principales
 
 Los archivos principales del proyecto son:
 
 ```text
 index.html
-tienda-videojuegos.html
 css/styles.css
 ```
 
